@@ -4,6 +4,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class webdriverdemo {
+   public static void main(String[] args) {
    
       WebDriver driver = new FirefoxDriver();
       //Puts an Implicit wait, Will wait for 10 seconds before throwing exception
