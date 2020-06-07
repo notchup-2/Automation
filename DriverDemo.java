@@ -16,6 +16,7 @@ public class webdriverdemo {
       //Maximize the browser
       driver.manage().window().maximize();
       
+	  /* Once the window opens the url is not being passed. */
       
       // Selecting the element by its xpath.
       driver.findElement(By.xpath(".//*[@id = 'menu']/div[4]/div[3]/a")).click();
